@@ -1,0 +1,12 @@
+name = "mark-six-app"
+compatibility_date = "2024-03-05"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mark-six-db"
+database_id = "YOUR_D1_DATABASE_ID"
+
+[vars]
+TG_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TG_ADMIN_ID = "YOUR_TELEGRAM_ADMIN_CHAT_ID"
